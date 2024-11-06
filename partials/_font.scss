@@ -1,0 +1,19 @@
+
+@mixin title-big {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Mountains of Christmas", serif;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+@mixin h2{
+    font-size: 1.6rem;
+}
+@mixin h3{
+    font-size: 3rem;
+    font-family: "Mountains of Christmas", serif;
+    text-align: center;
+    color: white;
+    
+}

@@ -1,0 +1,57 @@
+@import "./partials/reset";
+@import "./partials/colori";
+@import "./partials/mixins";
+@import "./partials/font";
+@import "./partials/animation";
+@import "./partials/button";
+
+nav {
+  background-color: rgb(42, 45, 196);
+  display: flex;
+  justify-content: space-between;
+  img {
+    width: 17%;
+  }
+  ul {
+    display: flex;
+    li {
+      margin: 0 1rem;
+      list-style-type: none;
+    }
+  }
+}
+#hero {
+   
+  background-color: $bg-hero;
+  height: 300px;
+  h3 {
+    @include h3();
+    padding-top: 3rem;
+  }
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  img {
+    width: 30%;
+    @include floating()
+    
+  }
+}
+article {
+  h1 {
+    @include title-big();
+  }
+  div {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    p {
+      margin-top: 3rem;
+    }
+  }
+  .button{
+    @include button()
+  }
+}

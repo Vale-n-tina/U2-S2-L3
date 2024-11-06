@@ -1,0 +1,30 @@
+$padding-map: (
+  sm: 0.25rem,   
+  md:  0.5rem,   
+  lg:  1rem,    
+  xl:  1.5rem, 
+  xxl: 3rem);
+  
+
+    @each $breakpoints,$value in $padding-map{
+        .p-#{$breakpoint}{
+            padding:$value
+        }
+        
+    }
+
+$margin-map: (
+  sm: 0.25rem,   
+  md:  0.5rem,   
+  lg:  1rem,    
+  xl:  1.5rem, 
+  xxl: 3rem);
+  
+
+    @each $breakpoint,$value in $margin-map{
+        .m-#{$breakpoint}{
+            margin:$value
+        }
+        
+    }
+
