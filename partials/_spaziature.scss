@@ -6,7 +6,7 @@ $padding-map: (
   xxl: 3rem);
   
 
-    @each $breakpoints,$value in $padding-map{
+    @each $breakpoint,$value in $padding-map{
         .p-#{$breakpoint}{
             padding:$value
         }

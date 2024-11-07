@@ -4,9 +4,10 @@
 @import "./partials/font";
 @import "./partials/animation";
 @import "./partials/button";
+@import"./partials/spaziature";
 
 nav {
-  background-color: rgb(42, 45, 196);
+  background-color: rgb(21, 145, 93);
   display: flex;
   justify-content: space-between;
   img {
@@ -51,7 +52,7 @@ article {
       margin-top: 3rem;
     }
   }
-  .button{
-    @include button()
-  }
+  //.button{
+  //  @include button()
+  //}
 }

@@ -52,8 +52,48 @@ table {
   border-spacing: 0;
 }
 
+.p-sm {
+  padding: 0.25rem;
+}
+
+.p-md {
+  padding: 0.5rem;
+}
+
+.p-lg {
+  padding: 1rem;
+}
+
+.p-xl {
+  padding: 1.5rem;
+}
+
+.p-xxl {
+  padding: 3rem;
+}
+
+.m-sm {
+  margin: 0.25rem;
+}
+
+.m-md {
+  margin: 0.5rem;
+}
+
+.m-lg {
+  margin: 1rem;
+}
+
+.m-xl {
+  margin: 1.5rem;
+}
+
+.m-xxl {
+  margin: 3rem;
+}
+
 nav {
-  background-color: rgb(42, 45, 196);
+  background-color: rgb(21, 145, 93);
   display: flex;
   justify-content: space-between;
 }
